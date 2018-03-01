@@ -11,6 +11,7 @@ most_points <- function(x,y) {
   data <- x %>%
     filter(Year==y) %>%
     arrange(desc(PTS))
+  data <- as.tibble(data)
   
   return(data)
 }

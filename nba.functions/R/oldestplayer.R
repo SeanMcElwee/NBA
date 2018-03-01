@@ -12,6 +12,6 @@ oldest_player <- function(x, y){
   data <- x %>%
     filter(Year==y) %>%
     arrange(desc(Age))
-  
+data <- as.tibble(data)
   return(data)
 }
