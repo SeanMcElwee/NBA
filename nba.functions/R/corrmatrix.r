@@ -15,6 +15,7 @@ correlation_matrix <- function(x, y){
   temp<-sapply(data, is.numeric)
   data <- data[, temp]
   mat <-cor(data)
+  mat <- as.tibble(mat)
   
     return(mat)
 }
