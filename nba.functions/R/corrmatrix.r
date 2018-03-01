@@ -1,11 +1,11 @@
 #' Correlation Matrix Function
 #'
-#' This function allows you to determine which player is the oldest.
+#' This function generates a correlation matrix of all continuous data in the specified data for the specified year
 #' @param most_points
-#' @keywords points
+#' @keywords correlation, matrix, players
 #' @export
 #' @examples
-#' most_points()
+#' correlation_matrix(data, year)
 #' 
 
 correlation_matrix <- function(x, y){

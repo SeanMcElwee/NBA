@@ -5,7 +5,7 @@
 #' @keywords points
 #' @export
 #' @examples
-#' most_points()
+#' most_points(data, year)
 
 most_points <- function(x,y) {
   data <- x %>%

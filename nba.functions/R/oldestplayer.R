@@ -1,11 +1,11 @@
 #' Oldest Player Function
 #'
 #' This function allows you to determine which player is the oldest.
-#' @param most_points
-#' @keywords points
+#' @param oldest_player
+#' @keywords age, nba, players
 #' @export
 #' @examples
-#' most_points()
+#' oldest_player(data, year)
 #' 
 
 oldest_player <- function(x, y){
